@@ -10,3 +10,7 @@ Para el menú animado, (hamburguer) hemos tomado como referencia W3Schools.com
 La imagen de fondo, como siempre de [unsplash.com](https://unsplash.com/es)
 La fuente que utilizaremos, nunito, también como siempre de [Google Fonts](https://fonts.google.com/?query=nunito)
 
+const menuBars = document.getElementById("menu-bars");
+menuBars.classList.toggle("change");
+classList hace referencia a las clases que tiene definidas ese elemento HTML
+toggle pone la clase si no estaba en la classList, y la quita si ya estaba. (La clase "change" está definida en el CSS. Se "activará" cuando la ponemos y se "desactivará" cuando la quitamos) 
